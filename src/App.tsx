@@ -91,7 +91,7 @@ const EMPTY_COMMUNE_ENTRY = {
     dn_total: 4494,
     hkd_total: 621,
     htx_total: 61,
-    dn_cds: 0,
+    dn_cds: 3,
     hkd_cds: 0,
     htx_cds: 0,
   },
