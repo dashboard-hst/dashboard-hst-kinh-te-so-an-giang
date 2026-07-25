@@ -871,7 +871,7 @@ export default function App() {
               label: 'Tài liệu Chuyển đổi số cho doanh nghiệp',
               icon: FileText,
               isExternal: true, // Đánh dấu đây là link ngoài
-              url: 'https://tanhiepangiang.vn/B4222h6a2d1d4cE'
+              url: ''
             },
             {
               id: 'stats-report',
