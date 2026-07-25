@@ -838,7 +838,7 @@ export default function App() {
           {[
             {
               id: 'layer-1',
-              label: 'Tầng 1: Bộ tiêu chí kinh tế số UBND cấp xã',
+              label: 'Tầng 1: Bộ tiêu chí kinh tế số UBND cấp tỉnh',
               icon: ShieldCheck,
               subtitle: `DEI ${activeMetrics.layer1.deiScore}% (Kinh tế & Xã hội)`,
             },
@@ -951,7 +951,7 @@ export default function App() {
                 <div>
                   <h2 className="text-xl font-black text-cyan-400 flex items-center gap-2">
                     <ShieldCheck className="h-6 w-6 text-cyan-400" /> TẦNG 1: BỘ
-                    TIÊU CHÍ KINH TẾ SỐ UBND CẤP XÃ
+                    TIÊU CHÍ KINH TẾ SỐ UBND CẤP TỈNH
                   </h2>
                   <p className="text-xs text-slate-400">
                     Bản phân rã 8 nhóm chỉ số nhiệm vụ cốt lõi đo lường nền kinh
@@ -972,7 +972,7 @@ export default function App() {
 
                   {/* Tổng số DN/HKD/HTX (Có Link) */}
                   <a
-                    href="https://tanhiepangiang.vn/28C70aH88eC9063"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#07111F]/50 px-5 py-3 rounded-xl border border-cyan-500/10 flex justify-between items-center mb-3 cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/30 transition-all"
@@ -988,7 +988,7 @@ export default function App() {
                   {/* 3 Cột Tổng (Có Link) */}
                   <div className="grid grid-cols-3 gap-2 mb-6 text-center">
                     <a
-                      href="https://tanhiepangiang.vn/330887F70hF9E63"
+                      href=""
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-[#122A4E]/20 p-3 rounded-xl border border-cyan-500/10 block cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/40 transition-all"
@@ -1002,7 +1002,7 @@ export default function App() {
                     </a>
 
                     <a
-                      href="https://tanhiepangiang.vn/C0EcH948862e780"
+                      href=""
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-[#122A4E]/20 p-3 rounded-xl border border-cyan-500/10 block cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/40 transition-all"
@@ -1016,7 +1016,7 @@ export default function App() {
                     </a>
 
                     <a
-                      href="https://tanhiepangiang.vn/0846B862H659B5E"
+                      href=""
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-[#122A4E]/20 p-3 rounded-xl border border-cyan-500/10 block cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/40 transition-all"
@@ -1032,7 +1032,7 @@ export default function App() {
 
                   {/* Tổng số CĐS */}
                   <a
-                    href="https://tanhiepangiang.vn/3e6h8527Eb344b3"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#07111F]/50 px-5 py-3 rounded-xl border border-cyan-500/10 flex justify-between items-center mb-3 cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/30 transition-all"
@@ -1193,7 +1193,7 @@ export default function App() {
 
                   {/* Tổng số SP/DV (Có Link) */}
                   <a
-                    href="https://tanhiepangiang.vn/B4HbFf11820eB5C"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#07111F]/50 px-5 py-4 rounded-xl border border-cyan-500/10 flex justify-between items-center mb-5 cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/30 transition-all"
@@ -1212,7 +1212,7 @@ export default function App() {
                     <div className="bg-[#122A4E]/30 rounded-xl border border-cyan-500/10 p-5 w-full">
                       {/* Tiêu đề & Tổng số */}
                       <a
-                        href="https://tanhiepangiang.vn/8d2h87Bf66915e4"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block text-center mb-6 hover:bg-cyan-500/5 rounded-lg py-2 transition-all cursor-pointer"
@@ -1241,15 +1241,15 @@ export default function App() {
 
                       {/* 3 Hộp số liệu to rõ phía dưới */}
                       <div className="grid grid-cols-3 gap-4">
-                        <a href="https://tanhiepangiang.vn/B21h949f82D4E0B" target="_blank" rel="noopener noreferrer" className="bg-[#07111F]/50 border border-cyan-500/10 rounded-xl py-4 flex flex-col items-center cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/30 transition-all">
+                        <a href="" target="_blank" rel="noopener noreferrer" className="bg-[#07111F]/50 border border-cyan-500/10 rounded-xl py-4 flex flex-col items-center cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/30 transition-all">
                           <span className="text-[10px] text-slate-400 uppercase font-bold mb-1">OCOP 3 SAO</span>
                           <strong className="text-3xl text-[#60A5FA] font-mono">{currentZoneData.b2.ocop_3}</strong>
                         </a>
-                        <a href="https://tanhiepangiang.vn/2cA8Da8d6hE3981" target="_blank" rel="noopener noreferrer" className="bg-[#07111F]/50 border border-cyan-500/10 rounded-xl py-4 flex flex-col items-center cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/30 transition-all">
+                        <a href="" target="_blank" rel="noopener noreferrer" className="bg-[#07111F]/50 border border-cyan-500/10 rounded-xl py-4 flex flex-col items-center cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/30 transition-all">
                           <span className="text-[10px] text-slate-400 uppercase font-bold mb-1">OCOP 4 SAO</span>
                           <strong className="text-3xl text-[#A855F7] font-mono">{currentZoneData.b2.ocop_4}</strong>
                         </a>
-                        <a href="https://tanhiepangiang.vn/0a73988dH47f0fB" target="_blank" rel="noopener noreferrer" className="bg-[#07111F]/50 border border-cyan-500/10 rounded-xl py-4 flex flex-col items-center cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/30 transition-all">
+                        <a href="" target="_blank" rel="noopener noreferrer" className="bg-[#07111F]/50 border border-cyan-500/10 rounded-xl py-4 flex flex-col items-center cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/30 transition-all">
                           <span className="text-[10px] text-slate-400 uppercase font-bold mb-1">OCOP 5 SAO</span>
                           <strong className="text-3xl text-[#FDBA74] font-mono">{currentZoneData.b2.ocop_5}</strong>
                         </a>
@@ -1258,11 +1258,11 @@ export default function App() {
 
                     {/* Khối Thường & Dịch Vụ - 2 cột cùng 1 row */}
                     <div className="grid grid-cols-2 gap-4">
-                      <a href="https://tanhiepangiang.vn/1a7dBc4hEa25E3D" target="_blank" rel="noopener noreferrer" className="bg-[#122A4E]/30 rounded-xl border border-cyan-500/10 flex flex-col justify-center items-center text-center p-4 cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/50 transition-all">
+                      <a href="" target="_blank" rel="noopener noreferrer" className="bg-[#122A4E]/30 rounded-xl border border-cyan-500/10 flex flex-col justify-center items-center text-center p-4 cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/50 transition-all">
                         <span className="text-[10px] text-slate-300 uppercase block mb-1">Tổng Số Sản Phẩm Thường</span>
                         <strong className="text-2xl font-mono text-emerald-400">{currentZoneData.b2.sp_thuong}</strong>
                       </a>
-                      <a href="https://tanhiepangiang.vn/1b79B33dH0B97f3" target="_blank" rel="noopener noreferrer" className="bg-[#122A4E]/30 rounded-xl border border-cyan-500/10 flex flex-col justify-center items-center text-center p-4 cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/50 transition-all">
+                      <a href="" target="_blank" rel="noopener noreferrer" className="bg-[#122A4E]/30 rounded-xl border border-cyan-500/10 flex flex-col justify-center items-center text-center p-4 cursor-pointer hover:border-cyan-400 hover:bg-[#122A4E]/50 transition-all">
                         <span className="text-[10px] text-slate-300 uppercase block mb-1">Tổng Số Dịch Vụ</span>
                         <strong className="text-2xl font-mono text-orange-400">{currentZoneData.b2.dv}</strong>
                       </a>
@@ -1550,7 +1550,7 @@ export default function App() {
                 <div className="bg-[#0A2540] border border-cyan-500/15 rounded-3xl p-5 flex flex-col justify-between">
                   <div className="border-b border-cyan-500/10 pb-3 mb-4 flex items-center justify-between">
                     <a
-                      href="https://tanhiepangiang.vn/8fBhB2Ff059dA08"
+                      href=""
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm font-bold text-cyan-400 flex items-center gap-2 hover:text-cyan-200 transition-colors cursor-pointer"
@@ -2395,7 +2395,7 @@ export default function App() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {/* Biểu đồ 1: Dự án kêu gọi đầu tư */}
                 <a
-                  href="https://quanly.tanhiepangiang.vn/52E03fH4A71038A"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#122A4E]/30 border border-cyan-500/10 rounded-2xl p-6 flex flex-col cursor-pointer hover:bg-[#122A4E]/50 hover:border-cyan-400 transition-all block"
@@ -2426,7 +2426,7 @@ export default function App() {
 
                 {/* Biểu đồ 2: Thông tin quy hoạch (Có Link) */}
                 <a
-                  href="https://tanhiepangiang.vn/5c0h8e5b050d903"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#122A4E]/30 border border-cyan-500/10 rounded-2xl p-6 flex flex-col cursor-pointer hover:bg-[#122A4E]/50 hover:border-cyan-400 transition-all block"
@@ -2472,7 +2472,7 @@ export default function App() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {/* Biểu đồ 1: Chính sách hỗ trợ (CÓ LINK) */}
                 <a
-                  href="https://tanhiepangiang.vn/5aE67hA421AdC5C"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#122A4E]/30 border border-cyan-500/10 rounded-2xl p-6 flex flex-col cursor-pointer hover:bg-[#122A4E]/50 hover:border-cyan-400 transition-all block"
@@ -2495,7 +2495,7 @@ export default function App() {
 
                 {/* Biểu đồ 2: Giải đáp kiến nghị (CÓ LINK) */}
                 <a
-                  href="https://quanly.tanhiepangiang.vn/1cHf9b5674Ad2e2"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#122A4E]/30 border border-cyan-500/10 rounded-2xl p-6 flex flex-col cursor-pointer hover:bg-[#122A4E]/50 hover:border-cyan-400 transition-all block"
